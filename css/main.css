@@ -97,6 +97,192 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* ------------- Header / Footer Base styles---------------- */
+header, footer {
+
+}
+
+/* -----------------------Header Styles ---------------- */
+/* header */
+header {
+
+}
+
+header .content-wrapper {
+
+}
+
+figure {
+
+}
+
+.header-divider {
+
+}
+
+/* NAV */
+nav {
+
+}
+
+nav ul {
+
+}
+
+nav ul li {
+
+}
+
+nav ul li a {
+
+}
+
+/* ----------------------Main Styles---------------- */
+main {
+
+}
+
+/* Hero Section */
+main .hero-area {
+
+}
+
+.hero-area .content-wrapper {
+
+}
+
+.content-wrapper h1 {
+
+}
+
+/* Aside (contains sign-up form)*/
+aside {
+
+}
+
+aside .content-wrapper {
+
+}
+
+aside .form-description {
+
+}
+
+.form-description h3 {
+
+}
+
+.form-description p {
+
+}
+
+form {
+
+}
+
+form input[type=text] {
+
+}
+
+form button[type=submit] {
+
+}
+
+/* Amenities Section */
+main .amenities {
+
+}
+
+.amenities .content-wrapper {
+
+}
+
+.amenities h2 {
+
+}
+
+.amenity-block {
+
+}
+
+.amenity-block img {
+
+}
+
+.amenity-block p {
+
+}
+
+/* Testimonials Section */
+main .testimonials {
+
+}
+
+.testimonials .content-wrapper {
+
+}
+
+.testimonials h2 {
+
+}
+
+.testimonials img {
+
+}
+
+.testimonials h3 {
+
+}
+
+.testimonials p {
+
+}
+
+/* ----------------------Footer Styles---------------- */
+footer {
+
+}
+
+footer .content-wrapper {
+
+}
+
+footer .footer-content {
+
+}
+
+.footer-content h4 {
+
+}
+
+.footer-content p {
+
+}
+
+footer .contact {
+
+}
+
+footer .social {
+
+}
+
+.social-icons {
+
+}
+
+.social-icons ul {
+
+}
+
+.social-icons ul li {
+
+}
+
+.social-icons ul li img {
+  
+}
+
 
 /* ==========================================================================
    Helper classes
@@ -263,4 +449,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
