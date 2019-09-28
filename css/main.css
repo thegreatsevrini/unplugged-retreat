@@ -104,6 +104,8 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+
+  padding: 15px 0;
 }
 
 /* header styles */
@@ -115,7 +117,7 @@ header .content-wrapper {
 }
 
 .header-divider {
-
+  width: 100%;
 }
 
 header nav {
@@ -123,19 +125,26 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+
+  width: 60%;
+
+  padding: 20px 0;
 }
 
 header nav ul {
  display: flex;
  justify-content: space-around; 
+ width: 50%;
 }
 
 header nav ul li {
-
+  padding: 0 20px;
+  list-style: none;
+  
 }
 
 header nav ul li a {
-
+  text-decoration: none;
 }
 
 /* footer styles */
@@ -146,7 +155,8 @@ footer {
 }
 
 footer .content-wrapper {
-
+  width: 55%;
+  padding: 50px 0;
 }
 
 .footer-content {
@@ -155,7 +165,9 @@ footer .content-wrapper {
 }
 
 .contact {
-
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
 }
 
 .social {
@@ -186,7 +198,11 @@ align-items: center;
 }
 
 .hero-area .content-wrapper {
+  width: 85%;
+}
 
+.hero-area h1 {
+  padding: 60px 0 330px 0;
 }
 
 /* Aside */
@@ -196,10 +212,12 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+
+  padding: 30px 0 50px;
 }
 
 aside .content-wrapper {
-
+  width: 85%;
 }
 
 aside .form-description {
@@ -226,7 +244,14 @@ form {
 }
 
 .features .content-wrapper {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
 
+.features h2 {
+  padding: 50px 0;
 }
 
 .features-items {
@@ -234,6 +259,8 @@ form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+
+  width: 50%;
 }
 
 .fontawesome-icon {
@@ -247,15 +274,26 @@ form {
 .testimonials {
   display: flex;
   justify-content: center;
-  flex-flow: column wrap;
+
+  padding: 50px 0;
 }
 
 .testimonials .content-wrapper {
-
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .testimonials article {
   
+  
+}
+
+.testimonials h3{
+  width: 50%;
+
   
 }
 
@@ -270,6 +308,8 @@ form {
 }
 
 .mission .content-wrapper {
+  width: 85%;
+  padding: 50px 0;
 
 }
 
@@ -289,7 +329,12 @@ form {
 }
 
 .general-contact .content-wrapper {
+  width: 85%;
+  padding: 50px 0;
+}
 
+.general-contact h2 {
+  margin: 0px;
 }
 
 .contact-content {
@@ -309,6 +354,8 @@ form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+
+  width: 85%;
 }
 
 .faq-content {
